@@ -47,12 +47,11 @@ var  name   = [
                 "teste   ",
                 "</center>"];
 var  post   = [
-
                 "HELLO !!! ;v "
-                ];
+              ];
 var  title  = [
                  "Cat site ;)"
-                ];
+              ];
 
 _top(topimg);
 _menu(name);
