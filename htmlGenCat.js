@@ -16,8 +16,6 @@
 
 */
 function     _title(params){
-
-
         document.write("<title>" + params[0] + "</title>");
 }
 function     _menu(params){
@@ -29,11 +27,9 @@ function     _menu(params){
     }
 }
 function     _top(params){
-
-        var imageTop = "<img src='x' width='ypx' height='zpx' />".replace("x",params[0])
-                                                                                                .replace("y",params[1])
-                                                                                                .replace("z",params[2]);
-
+var imageTop = "<img src='x' width='ypx' height='zpx' />".replace("x",params[0])
+                                                         .replace("y",params[1])
+                                                         .replace("z",params[2]);
         document.write(imageTop);
 }
 function    _post(params){
@@ -51,22 +47,21 @@ var  topimg = [
                 "1320",
                 "300" ];
 var  name   = [
-                      "<center> ",
-                      "teste        " ,
-                      "teste  ",
-                      "</center>"];
-var  post     = [
+                "<center> ",
+                "teste    ",
+                "teste   ",
+                "</center>"];
+var  post   = [
 
-                     "HELLO !!! ;v "
-                     ];
-var  title      = [
+                "HELLO !!! ;v "
+                ];
+var  title  = [
     "Cat site ;)"
+                ];
 
-    ];
-
-_top    (topimg);
-_menu (name);
-_post   (post);
-_title    (title);
+_top(topimg);
+_menu(name);
+_post(post);
+_title(title);
 
 </script>
